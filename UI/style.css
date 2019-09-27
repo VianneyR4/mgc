@@ -3438,3 +3438,38 @@ RESPONSIVE
     -moz-box-shadow: 10px 10px 5px 0px #fff;
     box-shadow: 10px 10px 5px 0px #fff;
 }
+
+img[alt="flag-fr"]{
+    width: 18px;
+}
+.modal .modal-content{
+    /* z-index: 100; */
+    /* position: ; */
+    margin-top: 150px;
+    border-radius: 0px;
+    /* background-color: grey; */
+}
+#link_nav_bar_mini b{
+    text-decoration: underline;
+}
+#link_nav_bar_mini a:hover{
+    text-decoration: underline;
+    color: rgb(53, 53, 53);
+}
+
+#specific_book{
+    width: 60%; 
+    margin-top: -30px;
+}
+@media screen and (max-width: 1000px){
+    #specific_book{
+        width: 75%; 
+        margin-top: -30px;
+    }
+}
+@media screen and (max-width: 700px){
+    #specific_book{
+        width: 90%; 
+        margin-top: -30px;
+    }
+}
